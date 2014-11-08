@@ -2,11 +2,39 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
+body{
+  background-color: #F4F4F4;
+}
 
-body svg{
-  border: 1px solid #000;
+body div svg{
+
+}
+.container{
   margin: 0px auto;
-  width: 600px;
+  padding:1px;
+  width: 700px;
+  box-shadow:2px 4px 20px #333;
+  border-radius:5px;
+  background-color:#FFF;
+}
+
+.scoreboard{
+  border:1px solid #333;
+  margin: 50px auto;
+  width:598px;
+}
+
+.scoreboard div{
+  border:1px solid red;
+  font-size: 20px;
+  font-family: 'Play', sans-serif;
+  margin: 0px 30px 0px 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.scoreboard div span{
+  font-weight:bold;
 }
 
 .asteroid{
